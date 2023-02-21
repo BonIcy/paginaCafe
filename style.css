@@ -1,14 +1,35 @@
-/* .contenido{
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Itim&family=Mr+Dafoe&family=Mynerve&family=Noto+Serif+Tamil&family=Source+Serif+Pro:wght@200&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    border: 0;
+}
+#titulo{
+    font-family: 'Gajraj One', cursive;
+    font-size: 2rem;
+    padding-left: 9%;
+}
+.navbar-nav{
+    font-family: 'Mynerve', cursive;
+    color:wheat;
+    font-size: 1.5rem;
+    padding-right: 9%;
+    gap: 5%;
+}
+#txt{
+    font-family: 'Itim', cursive;
+}
+#ess{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 80% 20%;
+    gap:6%;
 }
-.p1{
-    background-color: red;
+#xd{
+    display: flex;
+    width: 115px;
+    height: 100px;
 }
-.p2{
-    background-color: rebeccapurple;
+#rede{
+    display: grid;
+    padding-right: 8%;
+    padding-top: 3%;
 }
-.p3{
-    background-color:blue ;
-} */

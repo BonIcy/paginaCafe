@@ -7,29 +7,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" async integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+  
     <title>Starblox</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">StarBlox</a>
+              <a class="navbar-brand " href="#" id="titulo">StarBlox</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active " aria-current="page" href="https://www.starbucks.com.co/">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Menú</a>
+                    <a class="nav-link" href="https://www.starbucks.com.co/menu">Menú</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Café</a>
+                    <a class="nav-link" href="https://www.starbucks.com.co/articulo/como-elaborar-cafe">Café</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Novedades</a>
+                    <a class="nav-link" href="https://www.starbucks.com.co/seccion/novedades">Novedades</a>
+                  </li>
                   </li>
                 </ul>
               </div>
@@ -37,23 +39,27 @@
           </nav>
     </header>
     <section class="row">
-        <div class="col-lg-6 col-12 bg-success">
-            <article class="texto">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quas commodi similique voluptates cupiditate, vero voluptatum, magnam natus est voluptatem dolorum odio quam ad nobis optio nisi id perferendis praesentium!
+        <div class="col-lg-6 col-12 bg-success p-5">
+            <article class="text-light fs-2 p-5 text-center border   border-dark border-3 rounded-3"id="txt">
+              ¡Tus nuevos Pistacho Mocha, Pistacho Mocha Frappuccino & Pistacho Latte estan aquí!<br>
+              Encuentra la tienda que más te convenga para hacer tu pedido, selecciónala, escoge lo que más te guste, después agrégalo a tu carrito de compras y ¡listo!, así de fácil puedes tener tu pedido Starbucks.
             </article>
-            <button class="Comprar">Comprar</button>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+              <button type="button" class="btn btn-dark bg-dark rounded-pill" data-bs-toggle="button" autocomplete="off"><a class="text-light text-decoration-none"href="https://tupedidostarbucks.co"> Comprar Cafésito:3</a></button>
+          </div>
         </div>
-        <div class="p-5 col-lg-6 col-12 bg-warning">
+        <div class="col-lg-6 col-12 bg-success p-5">
+          <div class="">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner d">
+                <div class="carousel-inner d-block">
                   <div class="carousel-item active">
-                    <img src="img/091522-starbucks-the-great-pumpkin-latter-KSynold-2-scaled-e1663268464557.jpg" class="d-flex w-80 h-80 img-responsive" alt="...">
+                    <img src="img/091522-starbucks-the-great-pumpkin-latter-KSynold-2-scaled-e1663268464557.jpg" class="d-flex w-80 h-80 img-fluid rounded-circle">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/x1.jpg" class="d-flex w-80 h-80 img-responsive" alt="...">
+                    <img src="img/x1.jpg" class="d-flex w-80 h-80 img-fluid rounded-circle" >
                   </div>
                   <div class="carousel-item">
-                    <img src="img/x2.jpg" class="d-flex w-80 h-80 img-responsive" alt="...">
+                    <img src="img/x2.jpg" class="d-flex w-80 h-80 img-fluid rounded-circle">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -64,11 +70,37 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end "id="rede">
+                  <div class="btn-group dropup">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Redes Sociales
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.facebook.com/StarbucksColombia">Facebook</a></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/starbuckscol/">Instagram</a></li>
+                    <li><a class="dropdown-item" href="https://twitter.com/StarbucksCOL">Twitter</a></li>
+                  </ul>
+                  </div>
+                </div>
               </div>
+            </div>
         </div>
-        <div class="col-lg-12 col-12 bg-info d-flex justify-content-center">
-            <h1>tipos de cafe</h1>
+        <div class="row col-12 col-lg-12  bg-success d-flex justify-content-center  p-3"id="ess">
+            <img src="img/st2.jpg" id="xd" class="img-thumbnail img-fluid rounded-circle bg-success border-0">
+            <img src="img/st3.jpg" id="xd" class="img-thumbnail img-fluid rounded-circle bg-success border-0"">
+            <img src="img/st4.jpg" id="xd" class="img-thumbnail img-fluid rounded-circle bg-success border-0"">
+            <img src="img/st5.jpg" id="xd" class="img-thumbnail img-fluid rounded-circle bg-success border-0"">
         </div>
     </section>
+    <footer>
+      <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(109, 109, 109, 0.692);">
+          © 2023 Copyright:
+          <a class="text-dark" href="https://www.starbucks.com.co/">Starbucks.com.co</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </footer>
 </body>
 </html>
