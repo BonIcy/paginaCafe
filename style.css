@@ -4,6 +4,9 @@
     margin:0;
     border: 0;
 }
+#sexion{
+
+}
 #titulo{
     font-family: 'Gajraj One', cursive;
     font-size: 2rem;
@@ -44,4 +47,9 @@
 }
 .asa{
     padding-left: 29%;
+}
+
+#carr img{
+    width:95%;
+    height: 545px;
 }
