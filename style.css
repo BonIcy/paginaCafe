@@ -16,12 +16,21 @@
     padding-right: 9%;
     gap: 5%;
 }
+
 #txt{
     font-family: 'Itim', cursive;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5% 5% 0% 5%;
+    text-shadow: 4px 3px 4px rgb(1, 80, 1);
 }
 #ess{
     display: grid;
     gap:6%;
+}
+#ess img{
+    cursor: pointer;
 }
 #xd{
     display: flex;
@@ -30,6 +39,9 @@
 }
 #rede{
     display: grid;
-    padding-right: 8%;
+    padding-right: 7%;
     padding-top: 3%;
+}
+.asa{
+    padding-left: 29%;
 }
